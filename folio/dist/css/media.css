@@ -1,0 +1,105 @@
+/* Shapes removed */
+@media (max-width: 1289px) {
+  .shape {
+    display: none;
+  }
+}
+
+/* Skills column */
+@media (max-width: 1106px) {
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-item {
+    padding: 10px;
+  }
+}
+
+/* Small shapes removed */
+@media (max-width: 945px) {
+  .small-shape {
+    display: none;
+  }
+}
+
+/* Experience column */
+@media (max-width: 844px) {
+  .experience {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-item {
+    width: 100%;
+  }
+
+  .experience-item:nth-child(2) {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #2f2d2f;
+    border-bottom: 1px solid #2f2d2f;
+  }
+}
+
+/* Smaller font size & Socials column */
+@media (max-width: 596px) {
+  h2 {
+    font-size: 110px;
+  }
+
+  .yellow {
+    z-index: 0;
+  }
+
+  .phone {
+    font-size: 35px;
+  }
+
+  .socials {
+    flex-direction: column;
+  }
+
+  .social:nth-child(2) {
+    padding: 7px 0 7px 0;
+    border-right: none;
+    border-left: none;
+  }
+}
+
+/* Resume button moved */
+@media (max-width: 459px) {
+  .download {
+    top: 240px;
+    right: 35px;
+  }
+}
+
+/* Margin-top less */
+@media (max-width: 414px) {
+  .avatar {
+    margin-top: 50px;
+  }
+
+  .skills {
+    margin-top: 45px;
+  }
+
+  .topbar {
+    margin-top: 50px;
+  }
+
+  #showcase {
+    background-position: 0 -222px;
+  }
+
+  .showcase-text {
+    margin-top: 50px;
+  }
+
+  .section-main {
+    margin-top: 0;
+  }
+}
