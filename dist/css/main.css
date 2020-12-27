@@ -344,14 +344,14 @@ p {
   height: 181px;
 }
 
-.experience-item h2 {
+.p-years {
   font-size: 33px;
   font-weight: 500;
   letter-spacing: 1px;
   color: #fff;
 }
 
-.experience-item p {
+.p-experience {
   font-weight: 500;
   color: #fff;
   margin-top: 10px;
