@@ -351,10 +351,15 @@ p {
   color: #fff;
 }
 
+.experience-description {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .p-experience {
   font-weight: 500;
   color: #fff;
-  margin-top: 10px;
 }
 
 .experience-item:nth-child(2) {
@@ -362,11 +367,14 @@ p {
   border-left: 1px solid #2f2d2f;
 }
 
-.span-vertical-bar {
-  color: #626162;
+.vertical-bar {
+  margin: 3px 14px 0 14px;
+  width: 1px;
+  height: 15px;
+  background: #626162;
 }
 
-.span-company {
+.company {
   color: #79e5e9;
 }
 
