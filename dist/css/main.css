@@ -379,7 +379,7 @@ p {
 }
 
 /* Showcase */
-#showcase {
+.showcase {
   position: relative;
   background: url("../img/bg/dotted_texture.png") no-repeat center top;
 }
